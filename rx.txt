@@ -1,0 +1,30 @@
+import java.util.Scanner;
+class Main {
+  public static void main(String[] args){
+ double num1,num2;
+  char operator;
+System.out.println("enter nmber 1");
+num1=scanner.nextDouble();
+System.out.println("enter number2");
+num2=scanner.nextDouble();
+System.out.println("select operation +,-,*,/");
+double output;
+switch(operator){
+case "+":
+output=num1+num2;
+break;
+case "-":
+output=num1-num2;
+break;
+case "*":
+output=num1*num2;
+break;
+case "/":
+output=num1/num2;
+default:
+System.out.println("enter the wrong choice");
+return;
+}
+System.out.println(output);
+  }
+}
